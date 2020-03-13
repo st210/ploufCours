@@ -1,0 +1,19 @@
+#reglage serveur
+serveur :
+  port: 10000
+
+#nom appli
+spring :
+  application :
+    name : zezuperbank
+  #acces BD
+  datasource :
+    url: jdbc:mysql://localhost:3308/zezuperbank?serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      #ne pas laisser en prod#
+      ddl-auto: create-drop
+
