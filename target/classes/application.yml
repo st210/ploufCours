@@ -1,8 +1,12 @@
-server:
+#reglage serveur
+server :
   port: 10000
-spring:
-  application:
-    name: ploufMembres
+
+#nom appli
+spring :
+  application :
+    name : ploufMembres
+  #acces BD
   data:
     mongodb:
       database: dbmembres
