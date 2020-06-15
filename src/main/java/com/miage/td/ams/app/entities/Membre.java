@@ -1,4 +1,4 @@
-package com.miage.td.bank.app.entities;
+package com.miage.td.ams.app.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -15,20 +15,16 @@ import javax.validation.constraints.Size;
 @NoArgsConstructor
 @Setter
 @Getter
-@Document(collection = "comptes")
-public class Compte {
+@Document(collection = "membre")
+public class Membre {
     @Id
-    @Size (max=15)
+    @Size(max = 15)
     public long id;
 
     @Field
-    public double solde;
+    public String prenom;
 
     @Field
-    public long idclient;
-
-
-
-
+    public String nom;
 
 }
