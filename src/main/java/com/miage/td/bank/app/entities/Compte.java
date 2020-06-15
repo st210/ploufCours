@@ -27,8 +27,4 @@ public class Compte {
     @Field
     public long idclient;
 
-
-
-
-
 }
