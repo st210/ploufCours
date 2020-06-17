@@ -19,23 +19,23 @@ public class DataSourceConfig {
 	public MongoDbFactory mongoDbFactory() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("mongodb://");
-		sb.append(env.getProperty("MONGO_USER"));
+		sb.append(env.getProperty("root"));
 		sb.append(":");
-		sb.append(env.getProperty("MONGO_PASSWORD"));
+		sb.append(env.getProperty("root"));
 		sb.append("@");
-		sb.append(env.getProperty("MONGO_SERVER_PRIMARY"));
+		sb.append(env.getProperty("clustergruppetto-shard-00-00-yuuna5.mongodb.net"));
 		sb.append(":");
-		sb.append(env.getProperty("MONGO_PORT"));
+		sb.append(env.getProperty("27017"));
 		sb.append(",");
-		sb.append(env.getProperty("MONGO_SERVER_SECONDARY"));
+		sb.append(env.getProperty("clustergruppetto-shard-00-01-yuuna5.mongodb.net"));
 		sb.append(":");
-		sb.append(env.getProperty("MONGO_PORT"));
+		sb.append(env.getProperty("27017"));
 		sb.append(",");
-		sb.append(env.getProperty("MONGO_SERVER_SECONDARY_REPLICA"));
+		sb.append(env.getProperty("clustergruppetto-shard-00-02-yuuna5.mongodb.net"));
 		sb.append(":");
-		sb.append(env.getProperty("MONGO_PORT"));
+		sb.append(env.getProperty("27017"));
 		sb.append("/");
-		sb.append(env.getProperty("MONGO_COLLECTION"));
+		sb.append(env.getProperty("cours"));
 		sb.append("?ssl=true&replicaSet=mobilite-shard-0&authSource=admin&retryWrites=true&w=majority");
 		return new SimpleMongoClientDbFactory(sb.toString());
 	}
