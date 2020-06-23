@@ -7,8 +7,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface CoursRepo extends MongoRepository<Cours,Long> {
+public interface CoursRepo extends MongoRepository<Cours,String> {
 
-    List<Cours> findAllByIdCours(Long idCours);
+    List<Cours> findAllByIdProf(String idProf);
 
 }

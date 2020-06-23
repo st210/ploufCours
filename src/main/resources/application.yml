@@ -2,10 +2,10 @@ server:
   port: 20000
 spring:
   application:
-    name: ploufMembres
+    name: ploufCours
   data:
     mongodb:
-      database: base
+      database: base2
       host: localhost
       port: 27017
       username: root
