@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="011a0797-a646-40b9-9497-7ffc524648b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/AppApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/AppApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/service/MetierCours.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/service/MetierCours.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/td/bank/app/AppApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/td/bank/app/entities/Compte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/td/bank/app/repository/CompteRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/td/bank/app/rest/CompteControl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/miage/td/bank/app/service/MetierCompte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/miage/td/bank/app/AppApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/AppApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="119">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -82,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -102,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/service/MetierCours.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="123">
+              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -150,15 +141,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/entities/Membre.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/service/MetierCompte.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/miage/td/ams/app/AppApplicationTests.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/repository/CoursRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/rest/CoursControl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/entities/Cours.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/service/MetierCours.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/AppApplication.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -237,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593094612186" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1593095929354" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1/app" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -263,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in app (3)">
+  <component name="RunManager" selected="Application.AppApplication (1)">
     <configuration name="AppApplication (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.miage.td.ams.app.AppApplication" />
       <module name="app" />
@@ -311,8 +302,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in app (3)" />
         <item itemvalue="Application.AppApplication (1)" />
+        <item itemvalue="JUnit.All in app (3)" />
         <item itemvalue="JUnit.All in app (2)" />
         <item itemvalue="JUnit.All in app (1)" />
         <item itemvalue="JUnit.All in app" />
@@ -338,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592923474807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ploufCours : Connexion à mongo get post ok&#10;Ajout d'un membre au cours, ça marche mais sais la vérification">
+      <created>1593094636538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593094636538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -389,7 +387,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.20726173" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -400,15 +398,15 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.75340396" visible="true" weight="0.273752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7526475" visible="true" weight="0.31078905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3252818" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.24659607" side_tool="true" visible="true" weight="0.273752" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.2473525" side_tool="true" visible="true" weight="0.31078905" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.25281805" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49924356" weight="0.32850242" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -528,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/entities/Cours.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -574,11 +565,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/service/MetierCours.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="123">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -591,15 +589,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/miage/td/ams/app/AppApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
