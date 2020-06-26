@@ -2,7 +2,7 @@ server:
   port: 20000
 spring:
   application:
-    name: ploufCours
+    name: PLOUFCOURS
   data:
     mongodb:
       database: base2
@@ -11,6 +11,12 @@ spring:
       username: root
       password: root
       authentication-database: admin
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:30000/eureka/
+
 
 logging:
     level:

@@ -29,7 +29,7 @@ public class MetierCours {
 
 
     /**
-     * Ajout d'un cours à un membre
+     * Ajout d'un membre à un cours
      *
      * @param membre membre de l'association à qui associer un cours
      * @return booleen de confirmation du bon ajout du cours à un membre
