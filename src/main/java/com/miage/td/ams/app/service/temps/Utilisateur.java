@@ -12,6 +12,8 @@ public class Utilisateur {
 
     public String login;
 
+    public String mdp;
+
     public String nom;
 
     public String prenom;
@@ -20,13 +22,13 @@ public class Utilisateur {
 
     public int niveau;
 
-    public int num_licence;
+    public int numlicence;
 
-    public String adresse_id;
+    public String adresseid;
 
-    public String certificat_id;
+    public String certificatid;
 
-    public String role_id;
+    public String roleid;
 
-    public boolean cotisation = false;
+    public boolean cotisation;
 }
