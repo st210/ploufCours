@@ -3,6 +3,8 @@ package com.miage.td.ams.app.service;
 import com.fasterxml.classmate.MemberResolver;
 import com.miage.td.ams.app.entities.Cours;
 import com.miage.td.ams.app.repository.CoursRepo;
+import com.miage.td.ams.app.service.testMembreValide;
+import com.miage.td.ams.app.service.temps.Utilisateur;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpStatus;
@@ -10,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.validation.constraints.Null;
 import java.lang.reflect.Member;
 
 @Service
@@ -20,10 +23,10 @@ public class MetierCours {
     @Autowired
     private CoursRepo coursRepo;
 
-    private static final String BASE_URL = "http://localhost:10000/clients";
+    @Autowired
+    private testMembreValide membreValide;
 
-    @Qualifier("http")
-    private RestTemplate http;
+
 
     /**
      * Ajout d'un cours à un membre
@@ -34,7 +37,7 @@ public class MetierCours {
     public Cours ajouterCours(String idCours, String membre) {
         // todo : ajout d'un cours à un membre
         Cours cours = coursRepo.findById(idCours).get();
-        if (membreValide(membre, cours.niveau)) //Envoyer requêtes de valdidation vers PloufMembres
+        if (membreValide.membreValide(membre, cours.niveau) == null) //Envoyer requêtes de valdidation vers PloufMembres
         {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST,"Le membre ne peut pas s'inscrire dû à des problèmes admistratifs");
         }
@@ -50,9 +53,6 @@ public class MetierCours {
         return this.coursRepo.save(cours);
     }
 
-    public boolean membreValide(String membre, int niveau) {
 
-        return http.getForEntity(BASE_URL + "/" + membre + "/verif" + "?niveau=" + niveau, boolean.class).getBody();
-    }
 
 }
