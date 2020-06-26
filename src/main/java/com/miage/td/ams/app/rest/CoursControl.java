@@ -6,6 +6,8 @@ import com.miage.td.ams.app.service.MetierCours;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/cours")
 public class CoursControl {
@@ -17,6 +19,10 @@ public class CoursControl {
     @Autowired
     private MetierCours metierCours;
 
+    @GetMapping("")
+    public List<Cours> getAllCours(){
+        return  this.coursRepo.findAll();
+    }
 
     @GetMapping("{id}")
     public Cours getCours(@PathVariable("id") Cours c){
